@@ -1,100 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luiz Gutemberg Home Page </title>
+    <title>Luiz Gutemberg Home Page</title>
     
     <style>
       body {
          background: black;
          color: white;
-         ont-family: "Courier New", monospace;
+         font-family: "Courier New", monospace;
       }
-      .moving {
-        color: lime;
-        animation: move 10s infinite alternate;
-        text-align: center;
-}
-
-@keyframes move {
-    from { margin-left: 50%; }
-    to { margin-right: 50%; }
-}
 
       .container {
         max-width: 900px;
         margin: auto;
       }
 
-      img{
+      .titulo {
+        border: 1px solid white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .moving {
+        color: lime;
+        white-space: pre;
+        animation: move 6s infinite alternate ease-in-out;
+        text-align: center;
+      }
+
+      @keyframes move {
+        from { transform: translateX(-20px); }
+        to { transform: translateX(20px); }
+      }
+
+      img {
         float: left;
         margin-right: 20px;
+        width: 125px;
+        height: 145px;
+      }
+
+      a {
+        color: cyan;
+      }
+
+      hr {
+        border: 1px solid white;
       }
 
     </style>
 </head>
-<body> 
-  <div class="container">
-   <br>
-   <center>
-    <table border="1" cellpadding="10" cellspacing="0">
-      <tr>
-        <td>
-        <h1>Luiz Gutemberg dos Santos Sousa</h1></tr></td></table></center><br>
-    <center>
- <pre class="moving">
+
+<body>
+<div class="container">
+
+<br>
+
+<div class="titulo">
+    <h1>Luiz Gutemberg dos Santos Sousa</h1>
+</div>
+
+<br>
+
+<pre class="moving">
 |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-  
-Welcome to my page
+   Welcome to my page
 |＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
-         \ (•◡•) /
-          \     /
-
-        
-
+        \ (•◡•) /
+         \     /
 </pre>
-</center>
 
-    <img src="photo.jpg" alt="Imagem Luiz gutemberg" ALIGN="left" HSPACE=100 width="125" height="145">
-    <br>
+<br>
+
+<img src="photo.jpg" alt="Imagem Luiz Gutemberg">
+
 <section>
   <h2>Sobre mim</h2>
-  <p>Sou natural de Itarema - CE, tenho 23 anos e sou estudante de Engenharia de Computação pela UFC - Campus Sobral. 
-  Tenho grande interesse por tecnologia, natureza e fotografia, gostando de registrar momentos e observar os detalhes ao meu redor.
-  No tempo livre, gosto de ouvir músicas de rock e clássicos antigos.
-</p>
-<hr>
-
-
-<section>
-  <h2>Projetos e Bolsas</h2>
-  <p><li>Atuou como bolsista no Projeto de Iniciação Acadêmica em 2024 no projeto “O papel do bolsista de
-     iniciação acadêmica na Liga Acadêmica de Estudo em Reabilitação Protética (LAERP): relato de experiência”</li><br>
-    <li>
-      Atuou como bolsista no Projeto de
-      Iniciação Acadêmica em 2025 no projeto “Do uso ao descarte: uma proposta de 
-      educação ambiental na rede municipal de educação de Sobral: relato de experiência”
-    </li><br>
-    <li>Atualmente é agente no Projeto de Extensão Universitária “Lixo Eletrônico e Sustentabilidade: 
-      conscientização e descarte responsável na UFC Sobral”</li><br>
-
+  <p>
+    Sou natural de Itarema - CE, tenho 23 anos e sou estudante de Engenharia de Computação pela UFC - Campus Sobral. 
+    Tenho grande interesse por tecnologia, natureza e fotografia, gostando de registrar momentos e observar os detalhes ao meu redor.
+    No tempo livre, gosto de ouvir músicas de rock e clássicos antigos.
   </p>
 </section>
 
-<section><h2>Contato</h2></section>
-   <ul>
-    <li>E-mail:luiz.gutemberg@alu.ufc.br</li>
-     <li><a href="https://github.com/luizgtberg">Meu Github</a></li>
-     <li><a href="http://https://www.linkedin.com/in/luiz-gutemberg-dos-santos-sousa-539700397">Linkedin</a></li>
-     <li><a href="http://lattes.cnpq.br/9468012714125699">attes</a></li>
-</ul>
 <hr>
-<br>
-<br>
-<br>
-<center>
-<pre  HSPACE=100> <font color="green"> 
+
+<section>
+  <h2>Projetos e Bolsas</h2>
+  <ul>
+    <li>
+      Bolsista em 2024 no projeto “O papel do bolsista de iniciação acadêmica na Liga Acadêmica de Estudo em Reabilitação Protética (LAERP): relato de experiência”.
+    </li>
+    <br>
+    <li>
+      Bolsista em 2025 no projeto “Do uso ao descarte: uma proposta de educação ambiental na rede municipal de educação de Sobral”.
+    </li>
+    <br>
+    <li>
+      Agente no projeto de extensão “Lixo Eletrônico e Sustentabilidade: conscientização e descarte responsável na UFC Sobral”.
+    </li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>Contato</h2>
+  <ul>
+    <li>E-mail: luiz.gutemberg@alu.ufc.br</li>
+    <li><a href="https://github.com/luizgtberg">Meu GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/luiz-gutemberg-dos-santos-sousa-539700397">LinkedIn</a></li>
+    <li><a href="http://lattes.cnpq.br/9468012714125699">Lattes</a></li>
+  </ul>
+</section>
+
+<br><br>
+
+<pre style="color: lime; text-align: center;">
               ,---------------------------,            
               |  /---------------------\  |            
               | |                       | |            
@@ -109,22 +133,25 @@ Welcome to my page
         /___________________________________ /  | ___  
         |                                   |   |    ) 
         |  _ _ _                 [-------]  |   |   (  
-        |  o o o                 [-------]  |  /    _)_
-        |__________________________________ |/     /  /
-    /-------------------------------------/|      ( )/ 
+        |  o o o                 [-------]  |  /    _)_ 
+        |__________________________________ |/     /  / 
+    /-------------------------------------/|      ( )/  
   /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /            
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /              
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               </font> 
-</pre> 
-</center>
-<br> <br>
-<p><em>®Todos os direitos reservados</em></p>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               
+</pre>
+
+<br>
+
+<p><em>® Todos os direitos reservados</em></p>
+
 <address>
-Bloco I – Campus de Sobral – Mucambinho
-Rua Coronel Estanislau Frota, 563
-CEP 62.010-560 – Centro
+Bloco I – Campus de Sobral – Mucambinho<br>
+Rua Coronel Estanislau Frota, 563<br>
+CEP 62.010-560 – Centro<br>
 Sobral, Ceará
 </address>
+
 </div>
 </body>
 </html>
