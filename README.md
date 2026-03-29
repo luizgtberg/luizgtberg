@@ -40,7 +40,7 @@ O design foi inspirado na estética da web retrô, trazendo elementos clássicos
 
 ## 📷 Preview
 
-![Preview do site](foto.jpeg)
+![Preview do site](preview.gif)
 
 ---
 
